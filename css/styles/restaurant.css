@@ -1,16 +1,16 @@
 /* Restaurant CSS */
 .restaurant .table td,
-.restaurant .table th{
+.restaurant .table th{ 
 	padding:10px;
 }
 .restaurant .table-responsive{
 	border:0px;
 }
 /* Checkout page CSS */
-.restaurant .rest-checkout form {
+.restaurant .rest-checkout form { 
 	max-width:450px;
 }
-.restaurant .rest-checkout .table {
+.restaurant .rest-checkout .table { 
 	margin:10px auto;
 }
 /* Items page CSS */
@@ -53,18 +53,18 @@
 	-o-transition: all 0.35s ease-in;
 	transition: all 0.35s ease-in;
 }
-.restaurant .rest-item:hover  .ecom {
-	margin-top: -50px;
+.restaurant .rest-item:hover  .ecom { 
+	margin-top: -50px; 
 }
 /* Single Item CSS */
-.restaurant .rest-single img {
-	margin: 5px auto;
+.restaurant .rest-single img { 
+	margin: 5px auto; 
 }
 .restaurant .rest-single .table{
 	margin:5px auto;
 }
-.restaurant .rest-single .item-ingred {
-	margin: 10px auto;
+.restaurant .rest-single .item-ingred { 
+	margin: 10px auto; 
 	border-radius: 3px;
 	background: #fefefe;
 	border:1px solid #eee;
@@ -77,10 +77,10 @@
 	color: #8a8a8a;
 	border-bottom: 1px dashed #eee;
 }
-.restaurant .rest-single .item-ingred li:last-child {
-	border-bottom: 0;
+.restaurant .rest-single .item-ingred li:last-child { 
+	border-bottom: 0; 
 }
-.restaurant .rest-single .item-ingred li i {
+.restaurant .rest-single .item-ingred li i { 
 	color:#aaa;
 	margin-right:5px;
 }
@@ -103,7 +103,7 @@
 .restaurant .rest-menu img {
 	display: block;
 	width: 100%;
-	margin: 10px auto;
+	margin: 10px auto; 
 }
 .restaurant .rest-menu .menu-list-item {
 	margin:10px auto;
@@ -128,15 +128,15 @@
 	text-transform:uppercase;
 	margin-bottom:10px;
 }
-.restaurant .rest-nutrition img {
-	margin-bottom: 10px;
+.restaurant .rest-nutrition img { 
+	margin-bottom: 10px; 
 }
 /* Recipe page */
-.restaurant .rest-recipe img {
-	margin: 10px auto;
+.restaurant .rest-recipe img { 
+	margin: 10px auto; 
 }
-.restaurant .rest-recipe .item-ingred {
-	margin: 10px auto;
+.restaurant .rest-recipe .item-ingred { 
+	margin: 10px auto; 
 	border-radius: 3px;
 	background: #fefefe;
 	border:1px solid #eee;
@@ -149,10 +149,10 @@
 	color: #8a8a8a;
 	border-bottom: 1px dashed #eee;
 }
-.restaurant .rest-recipe .item-ingred li:last-child {
-	border-bottom: 0;
+.restaurant .rest-recipe .item-ingred li:last-child { 
+	border-bottom: 0; 
 }
-.restaurant .rest-recipe .item-ingred li i {
+.restaurant .rest-recipe .item-ingred li i { 
 	color:#aaa;
 	margin-right:5px;
 }

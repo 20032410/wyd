@@ -17,14 +17,14 @@
 	display:block;
 	max-width:120px;
 	border-radius:100%;
-	margin:10px auto 20px auto;
+	margin:10px auto 20px auto; 
 }
 .portfolio-theme .pf-header h1{
 	text-align:center;
 	font-size:22px;
 	line-height:35px;
 	font-weight:400;
-}
+}	
 .portfolio-theme .pf-header h2{
 	text-align:center;
 	font-size:16px;
@@ -72,7 +72,7 @@
 	font-size:35px;
 	line-height:60px;
 	font-weight:300;
-}
+}	
 @media (max-width:767px){
 	.portfolio-theme .portfolio-contact{
 		font-size:22px;

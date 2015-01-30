@@ -305,7 +305,7 @@
 /* Contact Starts */
 .slim-contact{
 	padding:40px 0px;
-	border-bottom:1px solid #f3f3f3;
+	border-bottom:1px solid #f3f3f3;	
 }
 .slim-contact .contact-map{
 	margin:50px 0px 20px;
@@ -349,7 +349,7 @@
 	.slim-contact .contact-detail{
 		max-width:230px;
 		margin:0 auto;
-	}
+	}	
 }
 /* Footer */
 .slim-footer{

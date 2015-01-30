@@ -25,7 +25,7 @@
    -moz-animation-delay:0s;
    -ms-animation-duration: 1s;
    -ms-animation-delay: 0s;
-   -o-animation-duration: 1s;
+   -o-animation-duration: 1s;    
    -o-animation-delay: 0s;
 }
 .status  p{
@@ -44,7 +44,7 @@
    -moz-animation-delay:0.4s;
    -ms-animation-duration: 1s;
    -ms-animation-delay: 0.4s;
-   -o-animation-duration: 1s;
+   -o-animation-duration: 1s;    
    -o-animation-delay: 0.4s;
 }
 .status  .s-circle{
@@ -96,7 +96,7 @@
 	}
 	.status {
 		text-align:center;
-	}
+	}	
 }
 @media (max-width: 480px){
 	.status   h2{
@@ -124,7 +124,7 @@
     -moz-animation-delay:0.8s;
     -ms-animation-duration: 1s;
     -ms-animation-delay: 0.8s;
-    -o-animation-duration: 1s;
+    -o-animation-duration: 1s;    
     -o-animation-delay: 0.8s;
 }
 .status  .s-circle.circle-two{
@@ -141,7 +141,7 @@
     -moz-animation-delay:2.4s;
     -ms-animation-duration: 1s;
     -ms-animation-delay: 2.4s;
-    -o-animation-duration: 1s;
+    -o-animation-duration: 1s;    
     -o-animation-delay: 2.4s;
 }
 .status  .s-circle.circle-three{
@@ -158,7 +158,7 @@
     -moz-animation-delay:1.2s;
     -ms-animation-duration: 1s;
     -ms-animation-delay: 1.2s;
-    -o-animation-duration: 1s;
+    -o-animation-duration: 1s;    
     -o-animation-delay: 1.2s;
 }
 .status  .s-circle.circle-four{
@@ -175,7 +175,7 @@
     -moz-animation-delay:2.8s;
     -ms-animation-duration: 1s;
     -ms-animation-delay: 2.8s;
-    -o-animation-duration: 1s;
+    -o-animation-duration: 1s;    
     -o-animation-delay: 2.8s;
 }
 .status  .s-circle.circle-five{
@@ -192,7 +192,7 @@
     -moz-animation-delay:1.6s;
     -ms-animation-duration: 1s;
     -ms-animation-delay: 1.6s;
-    -o-animation-duration: 1s;
+    -o-animation-duration: 1s;    
     -o-animation-delay: 1.6s;
 }
 .status  .s-circle.circle-six{
@@ -209,7 +209,7 @@
     -moz-animation-delay:2s;
     -ms-animation-duration: 1s;
     -ms-animation-delay: 2s;
-    -o-animation-duration: 1s;
+    -o-animation-duration: 1s;    
     -o-animation-delay: 2s;
 }
 @media (max-width: 767px){

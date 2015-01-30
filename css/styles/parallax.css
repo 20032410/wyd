@@ -164,8 +164,8 @@
 	color: #fff;
 	text-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
-.parallax-five .p-element h2 strong {
-	font-size: 80px;
+.parallax-five .p-element h2 strong { 
+	font-size: 80px; 
 	line-height:95px;
 	text-transform: uppercase;
 }
@@ -177,7 +177,7 @@
 	.parallax-five .p-element h2 strong{
 		font-size:40px;
 		line-height:55px;
-	}
+	}	
 }
 /* Parallax six */
 .parallax-six{
@@ -216,7 +216,7 @@
 		line-height:35px;
 		letter-spacing:0.1em;
 		word-spacing:0.1em;
-	}
+	}	
 	.parallax-six .p-element h2 {
 		font-size:30px;
 		line-height:45px;

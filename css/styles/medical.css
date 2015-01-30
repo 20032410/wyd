@@ -20,10 +20,10 @@
 	font-weight:600;
 }
 /* Our doctors */
-.medical .team-member .contact-details {
-	margin-top: 20px;
+.medical .team-member .contact-details { 
+	margin-top: 20px; 
 	margin-bottom:20px;
-}
+}	
 .medical .team-member .contact-details span{
 	display: block;
 	width: 100%;
@@ -49,22 +49,22 @@
 .medical .medic-appoint .carousel {
 	margin-top: 15px;
 	border-radius: 6px;
-	overflow: hidden;
+	overflow: hidden; 
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 /* Treatment Page */
 .medical .medic-treatment .nav a{
 	font-weight:600;
 }
-.medical .medic-treatment .tab-pane .img-treat {
+.medical .medic-treatment .tab-pane .img-treat { 
 	width: 100%;
 	max-width: 350px;
 	margin-left: 15px;
 	margin-top:5px;
-	float: right;
+	float: right; 
 }
-.medical .medic-treatment .tab-pane p {
-	text-align: justify;
+.medical .medic-treatment .tab-pane p { 
+	text-align: justify; 
 }
 .medical .medic-treatment .tab-content{
 	padding:10px 25px 20px 25px;
@@ -72,7 +72,7 @@
 .medical .medic-treatment .tab-pane  .doc-details{
 	max-width:500px;
 }
-.medical .medic-treatment .tab-pane  .doc-details .img-dr {
+.medical .medic-treatment .tab-pane  .doc-details .img-dr { 
 	width: 100%;
 	max-width: 130px;
 	float:left;
@@ -81,7 +81,7 @@
 	margin-left: 145px;
 }
 @media (max-width:480px){
-	.medical .medic-treatment .tab-pane  .doc-details .img-dr {
+	.medical .medic-treatment .tab-pane  .doc-details .img-dr { 
 		margin-bottom: 10px;
 		float:none;
 	}

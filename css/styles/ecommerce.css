@@ -2,7 +2,7 @@
 /* Ecommerce */
 /*************/
 .ecommerce .table td,
-.ecommerce .table th{
+.ecommerce .table th{ 
 	padding:10px;
 }
 .ecommerce .table-responsive{
@@ -75,8 +75,8 @@
 	color:#aaa;
 }
 .ecommerce .sidebar .navi > li:hover,
-.ecommerce .sidebar .account-nav > li:hover {
-	background: #fdfdfd;
+.ecommerce .sidebar .account-nav > li:hover { 
+	background: #fdfdfd; 
 }
 .ecommerce .sidebar ul.navi  li  ul{
 	display: none;
@@ -97,7 +97,7 @@
 	float: left;
 	margin-left: -12px;
 	content: "\f105";
-	color:#aaa;
+	color:#aaa;	
 	position:relative;
 	top:2px;
 }
@@ -125,7 +125,7 @@
 /* Sidebar widget */
 .ecommerce .sidebar .s-widget {
 	margin: 15px auto;
-	background: #fff;
+	background: #fff; 
 	border-radius: 4px;
 	border: 1px solid #eee;
 	padding:15px;
@@ -157,10 +157,10 @@
 	top:5px;
 	margin-bottom:5px;
 }
-.ecommerce .sidebar .sw-content  .star {
-	display: block;
-	margin-left: 60px;
-	font-size: 12px;
+.ecommerce .sidebar .sw-content  .star { 
+	display: block; 
+	margin-left: 60px; 
+	font-size: 12px; 
 	line-height: 20px;
 	margin-bottom:5px;
 }
@@ -179,7 +179,7 @@
 }
 .ecommerce .recent-items .owl-content img{
 	max-height:220px;
-	margin:0px auto;
+	margin:0px auto;	
 	margin-bottom:10px;
 }
 .ecommerce .recent-items .owl-content h4{
@@ -190,14 +190,14 @@
 	max-height:60px;
 }
 /* Shopping View Cart Page */
-.shopping-vcart table td img {
-	max-height: 50px;
+.shopping-vcart table td img { 
+	max-height: 50px; 
 }
-.shopping-vcart .input-group {
-	max-width: 110px;
+.shopping-vcart .input-group { 
+	max-width: 110px; 
 }/* Information Block CSS */
-.ecommerce .info {
-	margin: 20px 0px;
+.ecommerce .info { 
+	margin: 20px 0px; 
 }
 .ecommerce .info .info-item {
 	max-width: 350px;
@@ -209,7 +209,7 @@
 .ecommerce .info .info-item .num-outer {
 	display: inline-block;
 	padding: 7px;
-	background :rgba(255,255,255,0.35);
+	background :rgba(255,255,255,0.35); 
 	border-radius: 100px;
 	float: left;
 }
@@ -224,8 +224,8 @@
 	border-radius: 100px;
 }
 .ecommerce .info .info-item h4,
-.ecommerce .info .info-item h5 {
-	margin-left: 63px;
+.ecommerce .info .info-item h5 { 
+	margin-left: 63px; 
 }
 .ecommerce .info .info-item h4 {
 	font-size: 22px;
@@ -241,7 +241,7 @@
 	font-weight:400;
 }
 /* Shopping Items CSS */
-.ecommerce .shopping-item {
+.ecommerce .shopping-item { 
 	position: relative;
 	max-width: 280px;
 	margin: 10px auto;
@@ -258,10 +258,10 @@
         	transition: all 0.4s ease-in-out;
 }
 .ecommerce .shopping-item img {
-	max-height: 200px;
+	max-height: 200px; 
 	margin: 10px auto;
 }
-.ecommerce .shopping-item .item-hover {
+.ecommerce .shopping-item .item-hover { 
 	position: absolute;
 	left: -110px;
 	bottom: 40%;
@@ -274,17 +274,17 @@
 	     -o-transition: all 0.4s ease-in-out;
         	transition: all 0.4s ease-in-out;
 }
-.ecommerce .shopping-item:hover .item-hover {
-	left: 0px;
+.ecommerce .shopping-item:hover .item-hover { 
+	left: 0px; 
 }
 .ecommerce .shopping-item .item-hover a{
 	color:#fff;
 	margin-left:15px;
 	text-transform:uppercase;
 }
-.ecommerce .shopping-item a.btn {
-	margin-top: 10px;
-	margin-bottom: 10px;
+.ecommerce .shopping-item a.btn { 
+	margin-top: 10px; 
+	margin-bottom: 10px; 
 }
 /* Single Items Page */
 .ecommerce .shopping-single .carousel img{
@@ -302,26 +302,26 @@
 	margin-bottom:8px;
 }
 .ecommerce .shopping-single .form .input-group,
-.ecommerce .shopping-single .form .form-control {
-	max-width: 130px;
+.ecommerce .shopping-single .form .form-control { 
+	max-width: 130px; 
 }
 /* Compare Page */
-.item-compare .table thead td {
-	text-align: center;
+.item-compare .table thead td { 
+	text-align: center; 
 }
 .item-compare .table thead td img {
 	max-height: 100px;
 	margin: 10px auto;
 }
-.item-compare .table tbody td {
-	width: 26%;
+.item-compare .table tbody td { 
+	width: 26%; 
 }
 .item-compare .table thead td:first-child,
-.item-compare .table tbody th:first-child{
-	width: 200px;
+.item-compare .table tbody th:first-child{ 
+	width: 200px; 
 }
-.item-compare .table tbody th {
-	background: #fcfcfc;
+.item-compare .table tbody th { 
+	background: #fcfcfc; 
 }
 /* Ecommerce UI */
 .ecom-ui{
@@ -405,13 +405,13 @@
 	-o-transition: all 0.35s ease-in;
 	transition: all 0.35s ease-in;
 }
-.ecom-ui-three .p-media a:hover i {
+.ecom-ui-three .p-media a:hover i { 
 	background:#fafafa;
 }
 /* Product item #4 */
 .ecom-ui-four {
 	text-align: center;
-	position: relative;
+	position: relative; 
 	overflow: hidden;
 	border-width:2px;
 }
@@ -466,7 +466,7 @@
 	background:#fff;
 }
 /* Product item #5 */
-.ecom-ui-five {
+.ecom-ui-five { 
 	padding-left: 0;
 	padding-right: 0;
 	padding-bottom: 0;
@@ -513,11 +513,11 @@
 	margin: 0 auto;
 	color:#888;
 }
-.ecom-ui-five .p-media a:nth-child(3) {
-	border-right: 0;
+.ecom-ui-five .p-media a:nth-child(3) { 
+	border-right: 0; 
 }
 /* Product item #6 */
-.ecom-ui-six {
+.ecom-ui-six { 
 	position: relative;
 	overflow: hidden;
 	border-width:2px;

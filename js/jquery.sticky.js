@@ -108,7 +108,7 @@
           var unstickyElement = $(this);
 
           removeIdx = -1;
-          for (var i = 0; i < sticked.length; i++)
+          for (var i = 0; i < sticked.length; i++) 
           {
             if (sticked[i].stickyElement.get(0) == unstickyElement.get(0))
             {

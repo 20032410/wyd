@@ -50,11 +50,11 @@
 		width:100% !important;
 		margin:0px auto;
 		box-shadow:none;
-	}
+	}	
 	.resume .r-sidebar .r-sidebar-item{
 		max-width:220px;
 		margin:0px auto;
-	}
+	}	
 	.resume .r-sidebar .img{
 		float:left;
 		text-align:center;
@@ -120,7 +120,7 @@
 		margin-left:0px;
 		position:relative;
 	}
-}
+}		
 .resume .main-block  h3{
 	font-size:25px;
 	line-height:40px;
@@ -204,7 +204,7 @@
 }
 /* Experience */
 .resume .main-block .experience .experience-item{
-	margin:10px auto;
+	margin:10px auto;	
 }
 .resume .main-block .experience h6{
 	font-size:13px;

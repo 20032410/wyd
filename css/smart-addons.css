@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* @Third party plugins customization for smart-forms
+/* @Third party plugins customization for smart-forms 
 ------------------------------------------------------------ */
 
 /* @jquery numeric spepper || added css adjustments for IE8+
@@ -26,7 +26,7 @@
 	background: #F5F5F5;
     border: 1px solid #ccc;
     border-width:1px 1px 1px 0;
-	-webkit-background-clip: padding-box;
+	-webkit-background-clip: padding-box;        
     -moz-background-clip: padding;
 	background-clip: padding-box;
     -webkit-box-sizing: border-box;
@@ -45,40 +45,40 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-	text-indent:-9999px;
+	text-indent:-9999px;	
 	background:#F5F5F5;
     cursor: default;
     color: #666;
 }
 
-.stepper-btn-wrap a:hover {
+.stepper-btn-wrap a:hover { 
 	background:#F9F9F9;
 }
 
-.stepper-btn-up:before,
+.stepper-btn-up:before, 
 .stepper-btn-dwn:before{
     content: '';
-	border: 4px dashed;
+	border: 4px dashed; 
 	pointer-events: none;
 	border-color: #9F9F9F transparent;
 	border-color: #9F9F9F rgba(255, 255, 255, 0);
     position: absolute;
 	right:14px;
 	z-index:1;
-	height:0;
+	height:0;  
 	top:32%;
 	width:0;
 }
 
-.stepper-btn-up:before {
-	border-bottom-style: solid;
-	border-top: none;
+.stepper-btn-up:before { 
+	border-bottom-style: solid; 
+	border-top: none; 
 }
 
-.stepper-btn-dwn:before {
-	margin-top: 10px;
-	border-top-style: solid;
-	border-bottom: none;
+.stepper-btn-dwn:before { 
+	margin-top: 10px; 
+	border-top-style: solid; 
+	border-bottom: none; 
 }
 
 /* Spectrum color picker plugin || adjusted for smart-forms
@@ -86,11 +86,11 @@
 .sp-container {
 	position:absolute;
     display:inline-block;
-    *display: inline;
+    *display: inline;    
 	z-index: 9999994;
     overflow: hidden;
     *zoom: 1;
-	left:0;
+	left:0; 
 	top:0;
 
 }
@@ -175,10 +175,10 @@
 .sp-alpha,
 .sp-slider,
 .sp-dragger,
-.sp-preview,
+.sp-preview,    
 .sp-alpha-handle,
 .sp-container, .sp-replacer,
-.sp-container.sp-dragging .sp-input,
+.sp-container.sp-dragging .sp-input, 
 .sp-container button  {
     -webkit-user-select:none;
     -moz-user-select: -moz-none;
@@ -265,11 +265,11 @@
     border: solid 1px #CFCFCF;
     padding: 0;
 }
-.sp-container,
-.sp-container button,
-.sp-container input,
-.sp-color,
-.sp-hue,
+.sp-container, 
+.sp-container button, 
+.sp-container input, 
+.sp-color, 
+.sp-hue, 
 .sp-clear{
     font: normal 12px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
     -webkit-box-sizing: border-box;
@@ -299,7 +299,7 @@
     background: #fdd;
 }
 
-.sp-picker-container,
+.sp-picker-container, 
 .sp-palette-container{
     float:left;
     position: relative;
@@ -321,7 +321,7 @@
     border:solid 2px transparent;
 }
 
-.sp-palette .sp-thumb-el:hover,
+.sp-palette .sp-thumb-el:hover, 
 .sp-palette .sp-thumb-el.sp-thumb-active { border-color: orange; }
 .sp-thumb-el{ position:relative; }
 .sp-initial{ float: left; border: solid 1px #333; }
@@ -340,8 +340,8 @@
 .sp-replacer {
 	cursor:pointer;
 	overflow:hidden;
-    padding: 4px 10px;
-	position: absolute;
+    padding: 4px 10px;    
+	position: absolute; 
     background: #F5F5F5;
 	vertical-align: middle;
 	border: solid 1px #CFCFCF;
@@ -351,7 +351,7 @@
 	height: 100%;
 	color: #333;
 	margin:0;
-	*zoom: 1;
+	*zoom: 1; 
 	right:0;
 }
 
@@ -454,7 +454,7 @@
 }
 
 
-.sp-palette span:hover,
+.sp-palette span:hover, 
 .sp-palette span.sp-thumb-active{
     border-color: #000;
 }
@@ -463,8 +463,8 @@
     position:relative;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAAGUlEQVQYV2M4gwH+YwCGIasIUwhT25BVBADtzYNYrHvv4gAAAABJRU5ErkJggg==);
 }
-.sp-preview-inner,
-.sp-alpha-inner,
+.sp-preview-inner, 
+.sp-alpha-inner, 
 .sp-thumb-inner{
     display:block;
     position:absolute;
@@ -491,11 +491,11 @@ background-image: url(data:image/gif;base64,R0lGODlhFAAUAPcAAAAAAJmZmZ2dnZ6enqKi
 }
 
 .sfcolor{ padding-right:63px; }
-.sfcolor .gui-input + .sp-replacer{
+.sfcolor .gui-input + .sp-replacer{ 
 	width:63px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 	-o-box-sizing: border-box;
-    box-sizing: border-box;
+    box-sizing: border-box;	 
 }
 

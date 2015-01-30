@@ -15,7 +15,7 @@
 	border-top:0px;
 	margin:5px 0px;
 	border-color:rgba(255,255,255,0.3);
-}
+}	
 .as-header .as-logo{
 	float:left;
 	margin:10px 0px;
@@ -28,7 +28,7 @@
 	float:right;
 	margin:20px 0px;
 	font-size:14px;
-}
+}	
 .as-header .as-nav a{
 	color:#fff;
 	margin-left:20px;
@@ -51,7 +51,7 @@
 	.as-header .as-nav{
 		text-align:center;
 		float:none;
-	}
+	}	
 }
 /* Hero */
 .as-header .as-hero{
@@ -71,12 +71,12 @@
 	line-height:32px;
 	color:rgba(255,255,255,0.8);
 	font-weight:300;
-}
+}	
 @media(max-width:767px){
 	.as-header .as-hero h2{
 		font-size:25px;
 		line-height:40px;
-	}
+	}	
 	.as-header .as-hero p{
 		font-size:18px;
 		line-height:33px;
@@ -97,7 +97,7 @@
 }
 @media (max-width:767px){
 	.as-header .as-shot img.as-left,
-	.as-header .as-shot img.as-right{
+	.as-header .as-shot img.as-right{	
 		margin-top:0px;
 	}
 }
@@ -127,11 +127,11 @@
 		font-size:15px;
 		line-height:30px;
 	}
-}
+}	
 /* Downlaod section */
 .app-site .as-download{
 	padding:70px 0px;
-}
+}	
 .as-download .icon-box-6 p{
 	font-size:14px;
 	line-height:29px;
@@ -141,7 +141,7 @@
 /* About section */
 .app-site .as-about{
 	padding:70px 0px;
-}
+}	
 .app-site .as-about .as-heading h3{
 	color:#fff;
 }
@@ -162,7 +162,7 @@
 /* Features section */
 .app-site .as-features{
 	padding:70px 0px;
-}
+}	
 .as-features .owl-carousel img{
 	display:block;
 	margin:0px auto;
@@ -170,7 +170,7 @@
 /* Contact section */
 .app-site .as-contact{
 	padding:70px 0px;
-}
+}	
 .app-site .as-contact .as-heading h3{
 	color:#fff;
 }

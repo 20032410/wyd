@@ -94,12 +94,12 @@
 }
 .coming-soon form input{
 	background:rgba(0,0,0,0.3);
-	border: 1px solid rgba(0,0,0,0.1);
+	border: 1px solid rgba(0,0,0,0.1); 
 	color:#fff;
 	font-size:15px;
 }
 .coming-soon form input:focus{
-	border: 1px solid rgba(0,0,0,0.1);
+	border: 1px solid rgba(0,0,0,0.1); 	
 }
 .coming-soon form ::-webkit-input-placeholder { /* WebKit browsers */
     color: #fff !important;

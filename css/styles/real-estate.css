@@ -1,6 +1,6 @@
 /* Real estate CSS */
 .rs-property .table td,
-.rs-property .table th{
+.rs-property .table th{ 
 	padding:10px;
 }
 .rs-property .table-responsive{
@@ -53,8 +53,8 @@
 	padding: 10px 15px;
 	font-weight:400;
 }
-.real-estate .re-big-form .tab-content {
-	background: #fff;
+.real-estate .re-big-form .tab-content { 
+	background: #fff; 
 }
 .real-estate .re-big-form form label {
 	font-size: 13px;
@@ -70,8 +70,8 @@
 	}
 }
 /* Our agents */
-.rs-property .team-member .contact-details {
-	margin-top: 20px;
+.rs-property .team-member .contact-details { 
+	margin-top: 20px; 
 	margin-left:30px;
 }
 .rs-property .team-member .contact-details span{
@@ -106,8 +106,8 @@
 	margin-bottom: 15px;
 	float: left;
 }
-.re-contact-area .contact-info {
-	display: block;
+.re-contact-area .contact-info { 
+	display: block; 
 }
 .re-contact-area .contact-info i {
 	width: 16px;
@@ -125,7 +125,7 @@
 	}
 }
 /* Property */
-.rs-property .property-item {
+.rs-property .property-item { 
 	max-width: 480px;
 	margin: 15px auto;
 	padding-bottom: 5px;
@@ -137,8 +137,8 @@
 .rs-property .property-item img {
 	border-radius: 4px;
 }
-.rs-property .property-item .img-container {
-	position: relative;
+.rs-property .property-item .img-container { 
+	position: relative; 
 	overflow: hidden;
 }
 .rs-property .property-item .img-container .hover-top {
@@ -194,11 +194,11 @@
 	border-left: 1px solid #eee;
 	border-bottom: 1px solid #eee;
 }
-.rs-property .property-item .p-info a:nth-child(3) {
-	border-right: 1px solid #eee;
+.rs-property .property-item .p-info a:nth-child(3) { 
+	border-right: 1px solid #eee; 
 }
-.rs-property .property-item ul {
-	margin: 15px 10px;
+.rs-property .property-item ul { 
+	margin: 15px 10px; 
 }
 .rs-property .property-item ul li {
 	width: 50%;
@@ -217,7 +217,7 @@
 	border-radius:4px;
 }
 .rs-property .map-loc-item .img-container {
-	position: relative;
+	position: relative; 
 	overflow: hidden;
 }
 .rs-property .map-loc-item .img-container .hover-top {
@@ -238,7 +238,7 @@
 	color: #fff;
 	font-weight: 600;
 }
-.rs-property .map-loc-item .loc-details h4 {
+.rs-property .map-loc-item .loc-details h4 { 
 	margin-left:10px;
 	margin-top:10px;
 }
@@ -252,7 +252,7 @@
 	color: #727272;
 }
 /* Single Property */
-.rs-property .single-property .flexslider{
+.rs-property .single-property .flexslider{	
 	margin-top:10px;
 }
 .rs-property .single-property .table-responsive{
@@ -270,7 +270,7 @@
 	font-weight:400;
 	margin:8px 0px;
 }
-.rs-property .sp-locality .locality-item {
+.rs-property .sp-locality .locality-item { 
 	margin:15px 0px;
 	max-width:200px;
 }
