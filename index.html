@@ -39,58 +39,143 @@
     <link rel="shortcut icon" href="#">
 
     <style>
+        ol, ul {
+            list-style: none;
+            }
         .logo img {
             width: 200px;
         }
+        
+        .header-2 .navy > ul > li > a {
+            padding: 20px 12px;
+        }
+        
         .denglu {
             margin-top: 30px;
         }
+        
         .text-center h1 {
             font-size: 300%
         }
+        
         .text-center>p {
             margin-top: 10px;
             font-size: 150%;
             font-family: 微软雅黑;
         }
+        
         .quote-two-content span {
             text-indent: -40px;
         }
-      .header-2 .navy #menu-button{
+        
+        .header-2 .navy #menu-button {
             font-size: 16px;
         }
-        .icon-top p{
-            font-size: 30px;
-            
+        
+        .page-index-top {
+            margin: 30px 0 0 0;
+            background-color: #f8f8f8;
+            padding: 43px 50px;
+            margin-bottom: 40px;
         }
-        .icon-bottom p{
-           font-size: 30px; 
-            margin: 15px 0;
-        }
-        .icon-box-2 .header a {
-            padding: 20px 0px;
-        }
-            .icon-box-2 .header:hover a.icon-top {
-            top: 150px;
+        .h1-title {
+            font-size: 24px;
+            color: #2c3a46;
+            line-height: 36px;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
             }
-        .icon-box-2-title a{
-            font-size: 25px;
+        .overview-focus-line {
+            height: 35px;
+            line-height: 35px;
+            font-size: 12px;
+            color: #999;
+            border-radius: 2px;
+            padding: 0 20px 0 0;
+            margin: 7px 0;
+            }
+        .page-index-top .register-btn {
+            display: block;
+            text-align: center;
+            width: 220px;
+            height: 50px;
+            line-height: 50px;
+            color: #fff;
+            background: #ee0000;
+            border: 1px solid #c10000;
+            font-size: 18px;
+            border-radius: 2px;
+            margin-top: 30px;
+            }
+        .para-big {
+            padding-top: 30px;
+        }
+        
+        .s1 {
+            background: #FF2F74;
+        }
+        
+        .s2 {
+            background: #FF2F74;
+        }
+        
+        .s3 {
+            background: #FF2F74;
+        }
+        
+        .s {
+            border-radius: 10px;
+            width: 180px;
+            height: 180px;
+            margin: 0 auto;
+        }
+        
+        .s img {
+            margin: 13px auto 0 auto;
+            width: 150px;
+            height: 150px;
+            background-repeat: no-repeat;
+            display: inline-block;
+        }
+        
+        .rukou p {
+            font-size: 24px;
+            color: #2c3a46;
+            margin: 10px 0 0 0;
+            font-weight: bold;
+        }
+        
+        .rukou span {
+            display: block;
+        }
+        
+        .weiba {
+            width: 98px;
+            text-align: center;
+            line-height: 29px;
+            display: inline-block;
+            border-radius: 2px;
+            color: #ffffff;
+            margin-top: 5px;
+            background: #fa2929;
+        }
+        
+        .icon-box-2 .col-md-3 {
+            position: relative;
+            left: -30px;
         }
     </style>
 </head>
 
-<!-- Add class "boxed" along with body for boxed layout. -->
-<!-- Add "pattern-x" (1 to 5) for background patterns. -->
-<!-- Add "img-x" (1 to 5) for background images. -->
 
 <body>
 
     <!-- Outer Starts -->
-    <div class="outer">
+    <div class="outer ">
 
 
-        <!-- Header two Starts -->
-        <div class="header-2">
+        <!-- 导航栏 -->
+        <div class="header-2 container">
 
             <!-- Container -->
             <div class="container">
@@ -426,13 +511,13 @@
             </div>
         </div>
 
-        <!-- Header two ends -->
+        <!-- 导航栏ends -->
 
-        <!-- Main content starts -->
 
+        <!--body-->
         <div class="main-block">
 
-            <!-- Revolution slider full width starts -->
+            <!--轮播 -->
             <div class="r-slider">
                 <div class="bannercontainer">
                     <div class="banner">
@@ -493,10 +578,91 @@
                     </div>
                 </div>
             </div>
-            <!-- Revolution slider full width ends -->
+            <!--轮播ends -->
 
             <div class="container">
 
+                <div class="row page-index-top">
+                    <div class="col-md-5 col-sm-6 col-md-offset-1">
+                        <div class="">
+                            <h1 class="h1-title">
+                    免费的微商城 <br>
+                    完整的微电商解决方案
+                </h1>
+
+                            <ul class="overview-focus-list">
+                                <li class="overview-focus-line overview-focus-line1">
+                                    <div class="overview-focus-line-icon"></div><span class="overview-focus-line-head">零费用</span>零成本搭建完整、强大的微商城</li>
+                                <li class="overview-focus-line overview-focus-line2">
+                                    <div class="overview-focus-line-icon"></div><span class="overview-focus-line-head">更好玩</span>丰富有趣的营销应用，精准的数据分析</li>
+                                <li class="overview-focus-line overview-focus-line3">
+                                    <div class="overview-focus-line-icon"></div><span class="overview-focus-line-head">大流量</span>定期专场活动，百万免费流量支持</li>
+                            </ul>
+
+                            <a class="js-param register-btn" href="#">立即注册 免费开店</a>
+                        </div>
+                        <br />
+                    </div>
+                    <div class="col-md-5 col-sm-6 text-center">
+                        <a href="#">
+                            <img src="img/rev-slider/mockup1.png" alt="" class="img-responsive" />
+                        </a>
+                    </div>
+                </div>
+
+                <!--三大注册入口-->
+                <div class="icon-box-2  text-center">
+                    <div class="row">
+                        <div class="col-md-3 col-md-offset-2">
+                            <div class="rukou">
+                                <div class="s s1">
+                                    <img src="img/iconfont-techanshangcheng.png" alt="">
+                                </div>
+                                <p>微商城系统 </p><span> 快速开店，完美对接微信、微博</span>
+                            </div>
+                            <div class="weiba">免费开店</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="rukou">
+                                <div class="s s2">
+                                    <img src="img/iconfont-techanshangcheng.png" alt="">
+                                </div>
+                                <p>分销管理 </p><span> 供货商快速出货清库存</span>
+                            </div>
+                            <div class="weiba">立即入驻</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="rukou">
+                                <div class="s s3">
+                                    <img src="img/iconfont-techanshangcheng.png" alt="">
+                                </div>
+                                <p>服务商平台 </p><span> 找服务商，帮您搭建/经营微商城</span>
+                            </div>
+                            <div class="weiba">立即开通</div>
+                        </div>
+                        <!--   
+                        
+                        
+							<div class="col-md-3 col-sm-6">
+						
+								<div class="icon-box-2-item">
+									
+									<div class="header bg-lblue bg-rose-hover transition">
+										<a href="#" class="icon-top"> <i class="fa fa-suitcase"></i> </a>
+										<a href="#" class="icon-bottom"> <i class="fa fa-cog"></i> </a>
+									</div>
+								
+									<div class="icon-box-2-title">
+										<h4><a href="#">Web Designing</a></h4>
+									</div>
+								</div>
+							</div>
+							-->
+
+
+                    </div>
+                </div>
+                <!--三大注册入口ends-->
                 <br />
                 <div class="text-center">
                     <h1><span class="color">微易点™</span>.代理商经销.<span class="color">系统</span>.</h1>
@@ -505,62 +671,7 @@
                         <br />微信交易系统、微团购、微商城、以及管理与互动系统等工具来实 现客户的转化与深度服务。</p>
                 </div>
 
-          
-						<div class="icon-box-2 text-center">
-							<div class="row">
-								<div class="col-md-3 col-sm-6">
-									<!-- Icon Box Two Item -->
-									<div class="icon-box-2-item">
-										<!-- Header -->
-										<div class="header bg-lblue bg-rose-hover transition">
-											<a href="#" class="icon-top"><i class="fa fa-comments"></i> <p>微商城系统</p> </a>
-											<a href="#" class="icon-bottom"> <p>快速开店，完美对接微信、微博</p> </a>
-										</div>
-										<!-- Icon Box Two Title -->
-										<div class="icon-box-2-title">
-											<h4><a href="#">免费开店</a></h4>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-6">
-									<!-- Icon Box Two Item -->
-									<div class="icon-box-2-item">
-										<div class="header bg-purple bg-green-hover transition">
-											<a href="#" class="icon-top"> <i class="fa fa-comments"><p>分销平台</p></i> </a>
-											<a href="#" class="icon-bottom"> <p>供货商快速出货清库存</p> </a>
-										</div>
-										<div class="icon-box-2-title">
-											<h4><a href="#">立刻入驻</a></h4>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-6">
-									<!-- Icon Box Two Item -->
-									<div class="icon-box-2-item">
-										<div class="header bg-red bg-orange-hover transition">
-											<a href="#" class="icon-top"> <i class="fa fa-tachometer"><p>供货商平台</p></i> </a>
-											<a href="#" class="icon-bottom"><p>找服务商，帮您搭建/经营微商城</p> </a>
-										</div>
-										<div class="icon-box-2-title">
-											<h4><a href="#">立刻申请</a></h4>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-6">
-									<!-- Icon Box Two Item -->
-									<div class="icon-box-2-item">
-										<div class="header bg-green bg-yellow-hover transition">
-											<a href="#" class="icon-top"> <i class="fa fa-truck"><p>微易点联盟</p></i> </a>
-											<a href="#" class="icon-bottom"> <p>导购平台、自媒体无缝对接</p></a>
-										</div>
-										<div class="icon-box-2-title">
-											<h4><a href="#">即将上线</a></h4>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						
+
 
                 <!-- Image Box #3 Starts -->
 
@@ -709,16 +820,13 @@
                         <div class="owl-carousel" data-items="1" data-auto-play="true" data-pagination="true" data-single-item="true">
                             <!-- Item -->
                             <div class="item">
-                                <h3>技术核心能力非可复制性，让极致核心能力产生口碑。</h3>
-                                - 马化腾
+                                <h3>技术核心能力非可复制性，让极致核心能力产生口碑。</h3> - 马化腾
                             </div>
                             <div class="item">
-                                <h3>21世纪世界上只有两种生意，就是是拥有网站的企业和和将被收盘的生意，未来要么电子商务，要么无商可务。</h3>
-                                - 比尔.盖茨
+                                <h3>21世纪世界上只有两种生意，就是是拥有网站的企业和和将被收盘的生意，未来要么电子商务，要么无商可务。</h3> - 比尔.盖茨
                             </div>
                             <div class="item">
-                                <h3>信息产业革命是人类有史以来最大的一次产业革命，它将为我们提供千载难逢的机遇战！</h3>
-                                - 美国前总统克林顿说
+                                <h3>信息产业革命是人类有史以来最大的一次产业革命，它将为我们提供千载难逢的机遇战！</h3> - 美国前总统克林顿说
                             </div>
                         </div>
                     </div>
@@ -823,9 +931,9 @@
             </div>
         </div>
 
-        <!-- Main content ends -->
+        <!--ends -->
 
-        <!-- Foot Starts -->
+        <!-- 页尾Starts -->
 
         <div class="foot">
             <!-- Container -->
