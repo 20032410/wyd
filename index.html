@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Home - Brave</title>
+    <title>微易点-微商城服务平台领跑者</title>
     <!-- Description, Keywords and Author -->
-    <meta name="description" content="Your description">
-    <meta name="keywords" content="Your,Keywords">
-    <meta name="author" content="ResponsiveWebInc">
+    <meta name="keywords" content="微商城,微店铺,微商店,微信红包,微信公众平台">
+    <meta name="description" content="微易点 是国内独特的微信公众平台的二次建设及服务。微易点免费帮您开通微商城(利用微信公众号进行商品或者服务买卖)，精美微官网建设，专为汽车用品，家电家具行业开发经销商管理系统，红包服务。">
+    <meta name="author" content="Edward">
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -37,7 +37,8 @@
     <link rel="shortcut icon" href="#">
 
     <style>
-/* 头部*/
+        /* 头部*/
+        
         ol,
         ul {
             list-style: none;
@@ -64,15 +65,17 @@
             font-size: 150%;
             font-family: 微软雅黑;
         }
-        
+        /*
         .quote-two-content span {
             text-indent: -40px;
         }
+*/
         
         .header-2 .navy #menu-button {
             font-size: 16px;
         }
         /* 头部ends*/
+        
         .rukou p {
             font-size: 34px;
             color: #2c3a46;
@@ -105,9 +108,31 @@
             position: relative;
             left: -30px;
         }
+        /* 轮播*/
+        
+        .swipe {
+            overflow: hidden;
+            visibility: hidden;
+            position: relative;
+        }
+        
+        .swipe-wrap {
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .swipe-wrap > div {
+            float: left;
+            width: 100%;
+            position: relative;
+        }
+        
+        .swipe-wrap img {
+            width: 100%
+        }
     </style>
 </head>
-
+<!--author : http://www.tongyinyang.com-->
 
 <body>
 
@@ -131,17 +156,15 @@
 
                         <div class="navy">
                             <ul>
-                                <li><a href="#">首页</a>
+                                <li><a href="index.html">首页</a>
                                 </li>
-                                <li><a href="#">资讯报道</a>
+                                <li><a href="new.html">资讯报道</a>
                                 </li>
-                                <li><a href="#">产品功能</a>
+                                <li><a href="services.html">产品功能</a>
                                 </li>
-                                <li><a href="#">经典案例</a>
+                                <li><a href="case.html">经典案例</a>
                                 </li>
-                                <li><a href="#">套餐服务</a>
-                                </li>
-                                <li><a href="#">加盟招商</a>
+                                <li><a href="zsjm.html">加盟招商</a>
                                 </li>
                                 <li><a href="#">关于我们</a>
                                 </li>
@@ -165,7 +188,7 @@
                     </div>
 
                     <!-- Search section ends -->
-       
+
 
 
                 </div>
@@ -179,64 +202,13 @@
         <div class="main-block">
 
             <!--轮播 -->
-            <div class="r-slider">
-                <div class="bannercontainer">
-                    <div class="banner">
+            <div id='slider' class='swipe'>
+                <div class='swipe-wrap'>
+<div><img src="img/lb5.jpg" alt=""></div>
+<div><img src="img/lb6.jpg" alt=""></div>
+<div><img src="img/lb3.jpg" alt=""></div>
+<div><img src="img/lb4.jpg" alt=""></div>
 
-                        <ul>
-
-
-                            <!-- Slide #1 starts -->
-                            <li data-transition="zoomin" data-slotamount="5">
-                                <img src="img/rev-slider/3.jpg">
-
-
-
-                                <!-- Slide #1 ends -->
-
-                                <!-- Slide #2 starts -->
-
-                                <li data-transition="fadefromright">
-                                    <img src="img/rev-slider/transparent.png" class="bg-color" alt="" />
-
-
-
-                                </li>
-
-                                <!-- Slide #2 ends -->
-
-                                <!-- Slide #3 starts -->
-                                <li data-transition="slidedown">
-                                    <img src="img/rev-slider/transparent.png" />
-
-
-
-                                </li>
-                                <!-- Slide #3 ends -->
-
-                                <!-- Slide #4 starts  -->
-                                <li data-transition="slotslide-horizontal" data-slotamount="5">
-
-                                    <!-- MAIN IMAGE -->
-                                    <img src="img/rev-slider/3.jpg">
-
-
-                                </li>
-                                <!-- Slide #4 ends -->
-
-                                <!-- Slide #5 starts -->
-                                <li data-transition="boxslide" data-slotamount="5">
-
-                                    <img src="img/rev-slider/1.jpg" alt="" />
-
-
-
-                                </li>
-                                <!-- Slide #5 ends -->
-
-                        </ul>
-
-                    </div>
                 </div>
             </div>
             <!--轮播ends -->
@@ -722,98 +694,24 @@
     <!-- Revolution slider -->
     <script src="js/jquery.themepunch.tools.min.js"></script>
     <script src="js/jquery.themepunch.revolution.min.js"></script>
-    <!-- Waypoints -->
-    <script src="js/waypoints.min.js"></script>
+
     <!-- jQuery CountTo -->
     <script src="js/jquery.countTo.js"></script>
+    <script src="js/swipe.js"></script>
 
     <script type="text/javascript">
-        <!-- Counting code -->
-        $(document).ready(function () {
-            // Way Points With Count To()
-            $('.number-count').waypoint(function (down) {
-                if (!$(this).hasClass('stop-counter')) {
-                    $(this).countTo();
-                    $(this).addClass('stop-counter');
-                }
-            }, {
-                offset: '90%'
-            });
+        window.mySwipe = new Swipe(document.getElementById('slider'), {
+            startSlide: 2,
+            speed: 400,
+            auto: 6000,
+            continuous: true,
+            disableScroll: false,
+            stopPropagation: false,
+            callback: function (index, elem) {},
+            transitionEnd: function (index, elem) {}
         });
     </script>
 
-    <script type="text/javascript">
-        jQuery(document).ready(function () {
-            jQuery('.r-slider .banner').revolution({
-                delay: 7000,
-                startheight: 400,
-                startwidth: 1000,
-                startWithSlide: 0,
-
-                fullScreenAlignForce: "off",
-                autoHeight: "off",
-
-                shuffle: "off",
-
-                onHoverStop: "on",
-
-                thumbWidth: 100,
-                thumbHeight: 50,
-                thumbAmount: 3,
-
-                hideThumbsOnMobile: "on",
-                hideNavDelayOnMobile: 1500,
-                hideBulletsOnMobile: "off",
-                hideArrowsOnMobile: "off",
-                hideThumbsUnderResoluition: 0,
-
-                hideThumbs: 10,
-                hideTimerBar: "on",
-
-                keyboardNavigation: "on",
-
-                navigationType: "bullet",
-                navigationArrows: "solo",
-                navigationStyle: "round",
-
-                navigationHAlign: "center",
-                navigationVAlign: "bottom",
-
-                soloArrowLeftHalign: "left",
-                soloArrowLeftValign: "center",
-                soloArrowLeftHOffset: 20,
-                soloArrowLeftVOffset: 0,
-
-                soloArrowRightHalign: "right",
-                soloArrowRightValign: "center",
-                soloArrowRightHOffset: 20,
-                soloArrowRightVOffset: 0,
-
-
-                touchenabled: "on",
-                swipe_velocity: "0.7",
-                swipe_max_touches: "1",
-                swipe_min_touches: "1",
-                drag_block_vertical: "false",
-
-                stopAtSlide: -1,
-                stopAfterLoops: -1,
-                hideCaptionAtLimit: 0,
-                hideAllCaptionAtLilmit: 0,
-                hideSliderAtLimit: 0,
-
-                dottedOverlay: "none",
-
-                spinned: "spinner4",
-
-                fullWidth: "off",
-                forceFullWidth: "off",
-                fullScreen: "off",
-                fullScreenOffsetContainer: "#topheader-to-offset",
-
-            });
-        });
-    </script>
 
     <!-- Custom JS. Type your JS code in custom.js file -->
     <script src="js/custom.js"></script>
