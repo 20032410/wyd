@@ -1,0 +1,29 @@
+     /* 头部*/
+        
+        ol,
+        ul {
+            list-style: none;
+        }
+        
+        .logo img {
+            width: 200px;
+        }
+        
+        .header-2 .navy > ul > li > a {
+            padding: 20px 12px;
+        }
+        
+        .denglu {
+            margin-top: 30px;
+        }
+        
+        #shouye {
+            padding-left: 30px;
+        }
+        
+        @media (max-width: 992px) {
+            #shouye {
+                padding-left: 0px;
+            }
+        }
+        /* 头部ends*/
