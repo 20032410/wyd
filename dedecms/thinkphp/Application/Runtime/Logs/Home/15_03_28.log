@@ -1,0 +1,26 @@
+[ 2015-03-28T10:12:52+08:00 ] ::1 /jiamen.php/summ?name=%E9%98%BF%E6%96%AF%E9%A1%BF%E5%8F%91&dz=%E9%98%BF%E6%96%AF%E9%A1%BF%E5%8F%91&zy=%E9%98%BF%E6%96%AF%E9%A1%BF%E5%8F%91&lxr=%E9%98%BF%E6%96%AF%E9%A1%BF%E5%8F%91&sjh=%E9%98%BF%E6%96%AF%E9%A1%BF%E5%8F%91&email=%E9%98%BF%E6%96%AF%E9%A1%BF%E5%8F%91
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `hd_jiamen` [ RunTime:0.0040s ]
+SQL: INSERT INTO `hd_jiamen` (`name`,`dz`,`zy`,`lxr`,`sjh`,`email`,`time`) VALUES ('阿斯顿发','阿斯顿发','阿斯顿发','阿斯顿发','阿斯顿发','阿斯顿发','1427508772') [ RunTime:0.0410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-03-28T10:44:33+08:00 ] ::1 /jiamen.php/summ?name=%E9%98%BF%E6%96%AF%E8%BE%BE&dz=%E9%98%BF%E6%96%AF%E8%BE%BE&zy=%E9%98%BF%E6%96%AF%E8%BE%BE&lxr=%E9%98%BF%E6%96%AF%E8%BE%BE&sjh=%E9%98%BF%E6%96%AF%E8%BE%BE&email=%E9%98%BF%E6%96%AF%E8%BE%BE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `hd_jiamen` [ RunTime:0.0040s ]
+SQL: INSERT INTO `hd_jiamen` (`name`,`dz`,`zy`,`lxr`,`sjh`,`email`,`time`) VALUES ('阿斯达','阿斯达','阿斯达','阿斯达','阿斯达','阿斯达','1427510673') [ RunTime:0.0440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

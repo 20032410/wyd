@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <meta charset="utf-8">
+    <title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+    <!-- Description, Keywords and Author -->
+    <meta name="description" content="{dede:global.cfg_description/}" />
+    <meta name="keywords" content="{dede:global.cfg_keywords/}" />
+    <meta name="author" content="Edward">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <!-- Bootstrap CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font awesome CSS -->
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Magnific Popup -->
+    <link href="/css/magnific-popup.css" rel="stylesheet">
+    <!-- Owl carousel -->
+    <link href="/css/owl.carousel.css" rel="stylesheet">
+
+    <!-- CSS for this page -->
+
+    <!-- Base style -->
+    <link href="/css/styles/style.css" rel="stylesheet">
+    <!-- Skin CSS -->
+    <link href="/css/styles/skin-green.css" rel="stylesheet" id="color_theme">
+
+    <!-- Custom CSS. Type your CSS code in custom.css file -->
+    <link href="/css/custom.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/nav.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="#">
+
+    <style>
+        .content,
+        .pager {
+            font-size: 120%;
+        }
+    </style>
+
+</head>
+
+<!-- Add class "boxed" along with body for boxed layout. -->
+<!-- Add "pattern-x" (1 to 5) for background patterns. -->
+<!-- Add "img-x" (1 to 5) for background images. -->
+
+<body>
+
+    <!-- Outer Starts -->
+    <div class="outer">
+{dede:include filename="head.htm"/}
+        <!-- Main content starts -->
+
+        <div class="main-block">
+
+            <!-- Page heading two starts -->
+
+            <div class="page-heading-two">
+                <div class="container">
+                  <h2>{dede:field name='position'/}<span></span></h2>
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <!-- Page heading two ends -->
+
+            <div class="container">
+
+                <!-- blog two -->
+                <div class="blog-two">
+                    <div class="row">
+                        <!-- Mainbar column -->
+                        <div class="col-md-12">
+
+                            <!-- Blog item starts -->
+                            <div class="blog-two-item">
+                                <!-- blog two Content -->
+                                <div class="blog-two-content">
+                                    <!-- Heading -->
+                                    <h3 class="text-center"><a href="blog-single.html">{dede:field.title/}</a></h3>
+                                    <!-- Blog meta -->
+
+                                    <!-- Date -->
+                                    <p class="text-center"><a href="#"><i class="fa fa-calendar"></i> &nbsp; {dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}</a> &nbsp;</p>
+
+
+
+                                    <!-- Carousel -->
+
+
+
+                                    <!-- Paragraph -->
+                                    <div class="content">
+                                        <p>{dede:field.body/}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Blog item ends -->
+
+
+
+
+                            <br />
+
+
+
+                            <!-- Pager -->
+                            <ul class="pager">
+                                <li class="previous">{dede:prenext get='pre'/}
+                                </li>
+                                <li class="next">{dede:prenext get='next'/}
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Main content ends -->
+  {dede:include filename="footer.htm"/}
+    </div>
+
+    <!-- Outer Ends -->
+
+    <!-- Scroll to top -->
+    <span class="totop"><a href="#"><i class="fa fa-angle-up bg-color"></i></a></span>
+
+    <!-- Javascript files -->
+    <!-- jQuery -->
+    <script src="/js/jquery.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- Placeholders JS -->
+    <script src="/js/placeholders.js"></script>
+    <!-- Magnific Popup -->
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <!-- Owl carousel -->
+    <script src="/js/owl.carousel.min.js"></script>
+    <!-- Respond JS for IE8 -->
+    <script src="/js/respond.min.js"></script>
+    <!-- HTML5 Support for IE -->
+    <script src="/js/html5shiv.js"></script>
+    <!-- Main JS -->
+    <script src="/js/main.js"></script>
+
+    <!-- Javascript for this page -->
+
+    <!-- Custom JS. Type your JS code in custom.js file -->
+    <script src="/js/custom.js"></script>
+
+
+
+</body>
+
+
+
+</html>

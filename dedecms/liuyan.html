@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>商城申请表</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/vote.css">
+
+    <style>
+        .vote-entry {
+            min-height: 30px;
+        }
+        
+        .vote-details {
+            padding: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="content-body">
+            <div class="vote-title with-bs-bottom">
+                <h2 class="title ellipsis">商城申请表</h2>
+            </div>
+            <div class="vote-details" action="/v2/apps/vote/vote.json?alias=i777ov4i&amp;p=1">
+
+                <div class="vote-entry" data-type="text" data-title="您的姓名" data-id="8176940" required="">
+                    <div class="control_title">
+                        <h3 class="title">
+                            <em class="required">[必选]</em>
+                        您的姓名        </h3>
+                        <h4 class="sub_title">
+                    </h4>
+                    </div>
+                    <div class="control_conts">
+                        <input name="name" class="w_txt" type="text" value="">
+
+                    </div>
+                </div>
+
+                <div class="vote-entry" data-type="phone" data-title="您的手机号码" data-id="8176941" required="">
+                    <div class="control_title">
+                        <h3 class="title">
+                            <em class="required">[必选]</em>
+                        您的手机号码        </h3>
+                        <h4 class="sub_title">
+                    </h4>
+                    </div>
+                    <div class="control_conts">
+                        <input class="w_txt" type="text" name="phone" value="">
+
+                    </div>
+                </div>
+
+
+
+                <div class="vote-entry" data-type="phone" data-title="您的微信号" data-id="11216754" required="">
+                    <div class="control_title">
+                        <h3 class="title">
+                            <em class="required">[必选]</em>
+                        您的微信号        </h3>
+                        <h4 class="sub_title">
+                    </h4>
+                    </div>
+                    <div class="control_conts">
+                        <input class="w_txt" type="text" name="weixin" value="">
+
+                    </div>
+                </div>
+
+
+                <div class="vote-entry" data-type="text" data-title="所在地" data-id="8190923" required="">
+                    <div class="control_title">
+                        <h3 class="title">
+                            <em class="required">[必选]</em>
+                        所在地        </h3>
+                        <h4 class="sub_title">
+                    </h4>
+                    </div>
+                    <div class="control_conts">
+                        <input name="dizhi" class="w_txt" type="text" value="">
+
+                    </div>
+                </div>
+
+
+                <div class="vote-entry" data-type="text" data-title="电子邮件邮箱" data-id="8190923" required="">
+                    <div class="control_title">
+                        <h3 class="title">
+                            <em class="required">[必选]</em>
+                        电子邮件邮箱        </h3>
+                        <h4 class="sub_title">
+                    </h4>
+                    </div>
+                    <div class="control_conts">
+                        <input name="email" class="w_txt" type="text" value="">
+
+                    </div>
+                </div>
+
+                <div class="vote-entry custom-richtext">
+                    <p style="text-align: left;"><span style="text-align: center;">感谢您耐心填写，工作人员会在1-2个工作日内联系您</span>
+                    </p>
+
+                </div>
+
+                <div class="paginations clearfix first">
+                    <button class="submit">提交</button>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+</body>
+<script src="js/jquery.js"></script>
+<script>
+    $('.submit').click(function () {
+        var name = $('[name=name]').val();
+        var phone = $('[name=phone]').val();
+        var weixin = $('[name=weixin]').val();
+        var dizhi = $('[name=dizhi]').val();
+        var email = $('[name=email]').val();
+        $.get('/liuyan.php?m=Liuyan&c=Index&a=summ', {
+                'name': name,
+                'phone': phone,
+                'weixin': weixin,
+                'dizhi': dizhi,
+                'email': email
+            },
+            function (data) {
+                if (data == 'true') {
+                    alert('信息提交成功,最近工作日会有工作人员联系你的。');
+                } else {
+                    alert('信息提交失败');
+                }
+            }, 'text'
+        );
+    });
+
+</script>
+
+</html>
